@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "451947219469",
+    "firebase_url": "https://barcodevision-17a56.firebaseio.com",
+    "project_id": "barcodevision-17a56",
+    "storage_bucket": "barcodevision-17a56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451947219469:android:bbf9830a26422291c2a344",
+        "android_client_info": {
+          "package_name": "com.example.barcodevision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451947219469-37sempt22l5f2cjht7p407ua0riogu0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5fwmCgZt1tki4Kb4ajsacRgW2vP0_pKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451947219469-37sempt22l5f2cjht7p407ua0riogu0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
