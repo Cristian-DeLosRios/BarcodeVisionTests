@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package settings;
+package com.example.barcodevision.settings;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.ml.md.R;
 
-/** Hosts the preference fragment to configure settings. */
+/** Hosts the preference fragment to configure com.example.barcodevision.settings. */
 public class SettingsActivity extends AppCompatActivity {
 
   @Override

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package Camera;
+package com.example.barcodevision.Camera;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

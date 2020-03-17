@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package settings;
+package com.example.barcodevision.settings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -24,8 +24,8 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import com.google.android.gms.common.images.Size;
 import com.example.barcodevision.R;
-import Camera.GraphicOverlay;
-import Camera.CameraSizePair;
+import com.example.barcodevision.Camera.GraphicOverlay;
+import com.example.barcodevision.Camera.CameraSizePair;
 
 import com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode;
 

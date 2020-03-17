@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package settings;
+package com.example.barcodevision.settings;
 
 import android.hardware.Camera;
 import android.os.Bundle;
@@ -28,7 +28,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/** Configures App settings. */
+/** Configures App com.example.barcodevision.settings. */
 public class SettingsFragment extends PreferenceFragmentCompat {
 
   @Override

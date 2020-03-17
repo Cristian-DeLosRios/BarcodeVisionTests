@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package barcodedetection;
+package com.example.barcodevision.barcodedetection;
 
 import android.animation.ValueAnimator;
 import android.graphics.RectF;
 import android.util.Log;
 import androidx.annotation.MainThread;
 import com.google.android.gms.tasks.Task;
-import Camera.CameraReticleAnimator;
+import com.example.barcodevision.Camera.CameraReticleAnimator;
 import com.google.firebase.ml.vision.FirebaseVision;
 import com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode;
 import com.google.firebase.ml.vision.barcode.FirebaseVisionBarcodeDetector;
 import com.google.firebase.ml.vision.common.FirebaseVisionImage;
-import Camera.GraphicOverlay;
-import Camera.WorkflowModel;
-import Camera.WorkflowModel.WorkflowState;
-import Camera.FrameProcessorBase;
-import settings.PreferenceUtils;
+import com.example.barcodevision.Camera.GraphicOverlay;
+import com.example.barcodevision.Camera.WorkflowModel;
+import com.example.barcodevision.Camera.WorkflowModel.WorkflowState;
+import com.example.barcodevision.Camera.FrameProcessorBase;
+import com.example.barcodevision.settings.PreferenceUtils;
 import java.io.IOException;
 import java.util.List;
 

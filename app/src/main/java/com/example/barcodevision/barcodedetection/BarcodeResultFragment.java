@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package barcodedetection;
+package com.example.barcodevision.barcodedetection;
 
 import android.content.DialogInterface;
 import android.os.Bundle;

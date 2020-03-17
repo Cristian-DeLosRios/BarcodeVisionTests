@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package Camera;
+package com.example.barcodevision.Camera;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -94,7 +94,7 @@ public class CameraSourcePreview extends FrameLayout {
     float previewSizeRatio = (float) layoutWidth / layoutHeight;
     if (cameraPreviewSize != null) {
       if (Utils.isPortraitMode(getContext())) {
-        // Camera's natural orientation is landscape, so need to swap width and height.
+        // com.example.barcodevision.Camera's natural orientation is landscape, so need to swap width and height.
         previewSizeRatio = (float) cameraPreviewSize.getHeight() / cameraPreviewSize.getWidth();
       } else {
         previewSizeRatio = (float) cameraPreviewSize.getWidth() / cameraPreviewSize.getHeight();

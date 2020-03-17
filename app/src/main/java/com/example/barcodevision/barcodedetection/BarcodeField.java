@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package barcodedetection;
+package com.example.barcodevision.barcodedetection;
 
 import android.os.Parcel;
 import android.os.Parcelable;

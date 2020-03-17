@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package barcodedetection;
+package com.example.barcodevision.barcodedetection;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -29,8 +29,8 @@ import androidx.core.content.ContextCompat;
 
 import com.example.barcodevision.R;
 
-import Camera.GraphicOverlay;
-import settings.PreferenceUtils;
+import com.example.barcodevision.Camera.GraphicOverlay;
+import com.example.barcodevision.settings.PreferenceUtils;
 
 
 abstract class BarcodeGraphicBase extends GraphicOverlay.Graphic {

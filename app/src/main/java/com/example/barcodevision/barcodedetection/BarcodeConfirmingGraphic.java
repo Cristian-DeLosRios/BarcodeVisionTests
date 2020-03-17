@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package barcodedetection;
+package com.example.barcodevision.barcodedetection;
 
 
 import android.graphics.Canvas;
 import android.graphics.Path;
 
 import com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode;
-import Camera.GraphicOverlay;
-import settings.PreferenceUtils;
+import com.example.barcodevision.Camera.GraphicOverlay;
+import com.example.barcodevision.settings.PreferenceUtils;
 
 /** Guides user to move camera closer to confirm the detected barcode. */
 class BarcodeConfirmingGraphic extends BarcodeGraphicBase {

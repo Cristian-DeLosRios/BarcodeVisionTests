@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package barcodedetection;
+package com.example.barcodevision.barcodedetection;
 
 import android.content.res.Resources;
 import android.graphics.Canvas;
@@ -22,9 +22,9 @@ import android.graphics.Paint;
 import android.graphics.Paint.Style;
 import android.graphics.RectF;
 import androidx.core.content.ContextCompat;
-import Camera.GraphicOverlay;
+import com.example.barcodevision.Camera.GraphicOverlay;
 import com.example.barcodevision.R;
-import Camera.CameraReticleAnimator;
+import com.example.barcodevision.Camera.CameraReticleAnimator;
 
 /**
  * A camera reticle that locates at the center of canvas to indicate the system is active but has

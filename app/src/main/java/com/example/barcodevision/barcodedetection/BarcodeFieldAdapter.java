@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package barcodedetection;
+package com.example.barcodevision.barcodedetection;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,7 +23,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.barcodevision.R;
-import barcodedetection.BarcodeFieldAdapter.BarcodeFieldViewHolder;
+
+import com.example.barcodevision.barcodedetection.BarcodeFieldAdapter.BarcodeFieldViewHolder;
 import java.util.List;
 
 /** Presents a list of field info in the detected barcode. */

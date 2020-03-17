@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package Camera;
+package com.example.barcodevision.Camera;
 
 /** Metadata info of a camera frame. */
 class FrameMetadata {

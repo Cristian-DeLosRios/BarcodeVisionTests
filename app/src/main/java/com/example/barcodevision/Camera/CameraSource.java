@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package Camera;
+package com.example.barcodevision.Camera;
 
 import android.content.Context;
 import android.graphics.ImageFormat;
@@ -183,7 +183,7 @@ public class CameraSource {
   }
 
   /**
-   * Opens the camera and applies the user settings.
+   * Opens the camera and applies the user com.example.barcodevision.settings.
    *
    * @throws IOException if camera cannot be found or preview cannot be processed.
    */
@@ -212,7 +212,7 @@ public class CameraSource {
         .contains(Camera.Parameters.FOCUS_MODE_CONTINUOUS_VIDEO)) {
       parameters.setFocusMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_VIDEO);
     } else {
-      Log.i(TAG, "Camera auto focus is not supported on this device.");
+      Log.i(TAG, "com.example.barcodevision.Camera auto focus is not supported on this device.");
     }
 
     camera.setParameters(parameters);
@@ -242,7 +242,7 @@ public class CameraSource {
     // Gives priority to the preview size specified by the user if exists.
     CameraSizePair sizePair = PreferenceUtils.getUserSpecifiedPreviewSize(context);
     if (sizePair == null) {
-      // Camera preview size is based on the landscape mode, so we need to also use the aspect
+      // com.example.barcodevision.Camera preview size is based on the landscape mode, so we need to also use the aspect
       // ration of display in the same mode for comparison.
       float displayAspectRatioInLandscape;
       if (Utils.isPortraitMode(graphicOverlay.getContext())) {
@@ -259,14 +259,14 @@ public class CameraSource {
     }
 
     previewSize = sizePair.preview;
-    Log.v(TAG, "Camera preview size: " + previewSize);
+    Log.v(TAG, "com.example.barcodevision.Camera preview size: " + previewSize);
     parameters.setPreviewSize(previewSize.getWidth(), previewSize.getHeight());
     PreferenceUtils.saveStringPreference(
         context, R.string.pref_key_rear_camera_preview_size, previewSize.toString());
 
     Size pictureSize = sizePair.picture;
     if (pictureSize != null) {
-      Log.v(TAG, "Camera picture size: " + pictureSize);
+      Log.v(TAG, "com.example.barcodevision.Camera picture size: " + pictureSize);
       parameters.setPictureSize(pictureSize.getWidth(), pictureSize.getHeight());
       PreferenceUtils.saveStringPreference(
           context, R.string.pref_key_rear_camera_picture_size, pictureSize.toString());
@@ -313,7 +313,7 @@ public class CameraSource {
    * Creates one buffer for the camera preview callback. The size of the buffer is based off of the
    * camera preview size and the format of the camera image.
    *
-   * @return a new preview buffer of the appropriate size for the current camera settings.
+   * @return a new preview buffer of the appropriate size for the current camera com.example.barcodevision.settings.
    */
   private byte[] createPreviewBuffer(Size previewSize) {
     int bitsPerPixel = ImageFormat.getBitsPerPixel(IMAGE_FORMAT);

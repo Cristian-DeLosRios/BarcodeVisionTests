@@ -39,7 +39,7 @@ import android.net.Uri;
 import android.util.Log;
 import androidx.core.app.ActivityCompat;
 import androidx.exifinterface.media.ExifInterface;
-import barcodedetection.Camera.CameraSizePair;
+import com.example.barcodevision.Camera.CameraSizePair;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;

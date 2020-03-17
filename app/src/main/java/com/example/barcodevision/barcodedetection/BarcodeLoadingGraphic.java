@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package barcodedetection;
+package com.example.barcodevision.barcodedetection;
 
 import android.animation.ValueAnimator;
 import android.graphics.Canvas;
 import android.graphics.Path;
 import android.graphics.Point;
 import android.graphics.PointF;
-import Camera.GraphicOverlay;
+import com.example.barcodevision.Camera.GraphicOverlay;
 
 
 /** Draws the graphic to indicate the barcode result is in loading. */
